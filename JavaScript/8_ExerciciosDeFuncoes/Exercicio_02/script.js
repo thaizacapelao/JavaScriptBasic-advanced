@@ -1,6 +1,10 @@
-let t = 0;
+function receberIdade(idade) {
+    console.log(`Você tem ${idade} anos`)
+};
 
-while(t <= 10) {
-    t++;
-    console.log("O t é " + t);
-}
+receberIdade(12);
+receberIdade(22);
+receberIdade(27);
+receberIdade(78);
+receberIdade(56);
+receberIdade(90);

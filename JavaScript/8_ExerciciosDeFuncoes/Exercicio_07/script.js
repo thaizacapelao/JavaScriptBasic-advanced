@@ -1,13 +1,11 @@
-function recebeIdadeAutoescola(idade) {
-    if(idade >= 18) {
-        console.log("Pode se matricular na auto escola");
-    } else{
-        console.log("Não pode se matricular na auto escola");
-    }
-};
+function transformarNumeroEmPositivo(num) {
+    return Math.abs(num)
+}
 
-recebeIdadeAutoescola(4);
-recebeIdadeAutoescola(10);
-recebeIdadeAutoescola(29);
-recebeIdadeAutoescola(18);
-recebeIdadeAutoescola(19);
+console.log(transformarNumeroEmPositivo(-1));
+console.log(transformarNumeroEmPositivo(-5));
+console.log(transformarNumeroEmPositivo(-8));
+console.log(transformarNumeroEmPositivo(-9));
+console.log(transformarNumeroEmPositivo(-20));
+
+// O Math.abs retorna um valor absoluto de um número

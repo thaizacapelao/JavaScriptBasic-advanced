@@ -1,13 +1,11 @@
-function recebeIdadeAutoescola(idade) {
-    if(idade >= 18) {
-        console.log("Pode se matricular na auto escola");
-    } else{
-        console.log("Não pode se matricular na auto escola");
+function decrementacaoNumerosPares(num) {
+    for (let i = num; i >= 0; i--) {
+        if(i % 2 == 0) {
+            console.log(i)
+        }
     }
-};
+}
 
-recebeIdadeAutoescola(4);
-recebeIdadeAutoescola(10);
-recebeIdadeAutoescola(29);
-recebeIdadeAutoescola(18);
-recebeIdadeAutoescola(19);
+console.log(decrementacaoNumerosPares(15));
+console.log(decrementacaoNumerosPares(83));
+console.log(decrementacaoNumerosPares(46));

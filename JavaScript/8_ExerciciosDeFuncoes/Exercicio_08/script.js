@@ -1,13 +1,15 @@
-function recebeIdadeAutoescola(idade) {
-    if(idade >= 18) {
-        console.log("Pode se matricular na auto escola");
-    } else{
-        console.log("Não pode se matricular na auto escola");
+function limitarCaracteres(texto) {
+    if(texto.length > 10) {
+        console.log("Texto muito longo")
+    } else {
+        console.log("Texto dentro do limite")
     }
+    console.log(texto.length); // receber a quantidade de letras no console
 };
 
-recebeIdadeAutoescola(4);
-recebeIdadeAutoescola(10);
-recebeIdadeAutoescola(29);
-recebeIdadeAutoescola(18);
-recebeIdadeAutoescola(19);
+
+limitarCaracteres('Eu sou thaiza da Silva Capelão');
+limitarCaracteres('Oi Thaiza')
+
+
+// length serve no caso acima para limitar os caracteres

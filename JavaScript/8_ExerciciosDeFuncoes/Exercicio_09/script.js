@@ -1,13 +1,10 @@
-function recebeIdadeAutoescola(idade) {
-    if(idade >= 18) {
-        console.log("Pode se matricular na auto escola");
-    } else{
-        console.log("Não pode se matricular na auto escola");
-    }
+function fornecerPotencia(x, y) {
+    return Math.pow(x, y)
+   // return a ** b; outra maneira 
 };
 
-recebeIdadeAutoescola(4);
-recebeIdadeAutoescola(10);
-recebeIdadeAutoescola(29);
-recebeIdadeAutoescola(18);
-recebeIdadeAutoescola(19);
+console.log(fornecerPotencia(2, 2));
+console.log(fornecerPotencia(3, 2));
+console.log(fornecerPotencia(4, 4));
+
+// Math.pow serve para trazer a potencia entre dois numeros

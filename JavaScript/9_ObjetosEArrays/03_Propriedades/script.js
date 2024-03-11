@@ -9,4 +9,3 @@ console.log(nomes[0]);
 console.log(bool[2]);
 console.log(arr[arr.length - 1]); // acessar o ultimo elemento do array
 // mesmo que não saiba qual seja
-
